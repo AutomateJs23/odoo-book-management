@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem
+        id="menu_book_management_root"
+        name="Books"
+        web_icon="book_management,static/description/odoo_icon.png"
+        sequence="76"
+    />
+    <menuitem
+        id="menu_book_main"
+        name="Books"
+        parent="menu_book_management_root"
+        sequence="10"
+        groups="book_management.group_book_management_user"
+    />
+    <menuitem
+        id="menu_config_main"
+        name="Configuration"
+        parent="menu_book_management_root"
+        sequence="99"
+        groups="book_management.group_book_management_admin"
+    />
+</odoo>

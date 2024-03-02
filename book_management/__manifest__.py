@@ -1,0 +1,31 @@
+{
+    "name": "Books Management",
+    "version": "14.0.1.0.0",
+    "summary": "",
+    "sequence": 10,
+    "author": "Jessadawut Sanomnao",
+    "category": "",
+    "description": """""",
+    "website": "",
+    "depends": [
+        "base",
+        "hr",
+    ],
+    "external_dependencies": {},
+    "data": [
+        "security/security.xml",
+        "security/ir.model.access.csv",
+        "views/base_views.xml",
+        "views/book_author_views.xml",
+        "views/book_category_views.xml",
+        "views/book_views.xml",
+    ],
+    "demo": [],
+    "qweb": [],
+    "installable": True,
+    "application": True,
+    "auto_install": False,
+    "post_init_hook": "",
+    "license": "Other proprietary",
+}
+
